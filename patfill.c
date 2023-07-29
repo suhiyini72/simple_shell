@@ -14,8 +14,8 @@ char *options, *aux = entry, *command;
 
 command = strtok(entry, "\n\t\r ");
 arguments[i] = command;
-while (aux != NULL);
-{
+
+while (aux != NULL){
 ++i;
 options = strtok(NULL, "\n\t\r ");
 aux = options;
