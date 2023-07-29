@@ -11,7 +11,7 @@ int main(void)
 ssize_t bytes_rd = 0;
 size_t bf_size = 0;
 char *entry = NULL, *arguments[20];
-int counter = 1, vf_stat = 0, exist_stat = 0, exit_stat = 0, blt_stat = 0;
+int counter = 1, vf_stat = 1, exist_stat = 1, exit_stat = 1, blt_stat = 1;
 
 _printp("$ ", 2);
 bytes_rd = getline(&entry, &bf_size, stdin);
